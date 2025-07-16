@@ -2,9 +2,14 @@
   "manifest_version": 3,
   "name": "LinkedIn Profile Viewer",
   "version": "1.6",
-  "description": "Auto-view, like, and optionally connect or comment on LinkedIn profiles (2nd connections only).",
+  "description": "Auto-view, like LinkedIn profiles (2nd connections only), and send connection requests to select users.",
   "permissions": ["activeTab", "scripting", "storage", "tabs"],
   "host_permissions": ["*://*.linkedin.com/*"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
